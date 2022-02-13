@@ -12,7 +12,7 @@ keiran = Math.floor(Math.random()*keiyousi.length);
 sururan = Math.floor(Math.random()*surukoto.length);
 keiyou = keiyousi[keiran];
 suru = surukoto[sururan];
-document.write("<p>C 次の問い(<b>問１～３</b>)において、それぞれ下の語句を並び替えて空所を補い、文を完成させよ。解答は(２１)～(２２)に入れるものの番号のみを答えよ。</p><p>"+suru+" is "+keiyou+".</p>");
+document.write("<p>C 次の問い(<b>問１～３</b>)において、語句を並び替えて文を完成させよ。</p><p>"+suru+" is "+keiyou+".</p>");
 
 function myQues(){	
 alert("It is "+keiyou+" "+suru+".");	
