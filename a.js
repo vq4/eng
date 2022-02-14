@@ -12,7 +12,8 @@ keiran1 = Math.floor(Math.random()*keiyousi1.length);
 sururan1 = Math.floor(Math.random()*surukoto1.length);
 keiyou1 = keiyousi1[keiran1];
 suru1 = surukoto1[sururan1];
-document.write("<p>C 次の問い(<b>問１～３</b>)において、語句を並び替えて文を完成させよ。</p><p>"+suru1+" is "+keiyou1+".</p>");
+writ = "<p>C 次の問い(<b>問１～３</b>)において、語句を並び替えて文を完成させよ。</p><p>"+suru1+" is "+keiyou1+".</p>"
+document.write(writ);
 
 function myQues(){	
 alert("It is "+keiyou1+" "+suru1+".");	
